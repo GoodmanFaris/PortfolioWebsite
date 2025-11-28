@@ -48,10 +48,10 @@ export default function Navbar() {
           <a href="/about" className={`block text-black ${pressStart.className} hover:underline`}>
             About
           </a>
-          <a href="#projects" className={`block text-black ${pressStart.className} hover:underline`}>
+          <a href="/projects" className={`block text-black ${pressStart.className} hover:underline`}>
             Projects
           </a>
-          <a href="#contact" className={`block text-black ${pressStart.className} hover:underline`}>
+          <a href="/contact" className={`block text-black ${pressStart.className} hover:underline`}>
             Contact
           </a>
         </div>
