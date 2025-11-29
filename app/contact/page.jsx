@@ -18,7 +18,7 @@ export default function Contact() {
 
             <div className="flex items-center gap-2 text-sm text-black">
             <img src="/x.png" alt="X" className="w-4 h-4" />
-            X: <a href="https://www.facebook.com/faris.lindov.9" className="hover:underline" target="_blank" rel="noopener noreferrer">@Faris Lindov</a>
+            X: <a href="https://x.com/exe_linda" className="hover:underline" target="_blank" rel="noopener noreferrer">@exe_linda</a>
             </div>
 
             <div className="flex items-center gap-2 text-sm text-black">
