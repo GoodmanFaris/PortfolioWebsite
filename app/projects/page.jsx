@@ -35,7 +35,7 @@ export default function ProjectsPage() {
     {
       title: "Live Model Viewer",
       desc: "3D model viewer with live camera feed background using Three.js.",
-      img: "/p6.webp",
+      img: "/p9.png",
       link: "https://livemodelviewdemov-rjc0c01uz-faris-projects-3a20e575.vercel.app/"
     },
     {
