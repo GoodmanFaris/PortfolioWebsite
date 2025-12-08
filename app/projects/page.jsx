@@ -6,7 +6,7 @@ export default function ProjectsPage() {
       title: "Personal Finance AI Tracker",
       desc: "Personal finance dashboard with AI-powered insights and predictions.",
       img: "/p1.png",
-      link: "https://github.com/yourrepo1"
+      link: ""
     },
     {
       title: "InfoStudent",
@@ -31,6 +31,12 @@ export default function ProjectsPage() {
       desc: "Implementation of IDDEEA API, information and statistics about Bosnia and Herzegovina, Android app.",
       img: "/p4.jpg",
       link: "https://github.com/GoodmanFaris/IDDEEAFarisLindov"
+    },
+    {
+      title: "Live Model Viewer",
+      desc: "3D model viewer with live camera feed background using Three.js.",
+      img: "/p6.webp",
+      link: "https://livemodelviewdemov-rjc0c01uz-faris-projects-3a20e575.vercel.app/"
     },
     {
       title: "F1 APP",
