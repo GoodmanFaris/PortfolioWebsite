@@ -50,6 +50,12 @@ export default function ProjectsPage() {
       img: "/p6.webp",
       link: "https://github.com/GoodmanFaris/Heart-Disease-Machine-Learning"
     },
+    {
+      title: "Cat vs Dog Classification CNN",
+      desc: "Machine learning model to classify images of cats and dogs.",
+      img: "/p6.webp",
+      link: "https://github.com/GoodmanFaris/CatvsDogRecognition-CNN"
+    },
   ];
 
   return (
