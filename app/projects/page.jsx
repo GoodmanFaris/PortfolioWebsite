@@ -6,7 +6,7 @@ export default function ProjectsPage() {
       title: "BudgetFlo - Personal Finance Tracker",
       desc: "Open source free online personal finance tracker with summary. Current version (V 1.0).",
       img: "/BudgetFlo.png",
-      link: ""
+      link: "https://budgetflo.online"
     },
     {
       title: "InfoStudent",
