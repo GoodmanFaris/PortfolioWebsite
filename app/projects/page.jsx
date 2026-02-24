@@ -3,9 +3,9 @@
 export default function ProjectsPage() {
   const projects = [
     {
-      title: "Personal Finance AI Tracker",
-      desc: "Personal finance dashboard with AI-powered insights and predictions.",
-      img: "/p1.png",
+      title: "BudgetFlo - Personal Finance Tracker",
+      desc: "Open source free online personal finance tracker with summary. Current version (V 1.0).",
+      img: "/BudgetFlo.png",
       link: ""
     },
     {
@@ -73,15 +73,6 @@ export default function ProjectsPage() {
                 bg-white text-black
               `}
             >
-              {i === 0 && (
-                <div className="absolute inset-0 bg-white/70 z-20 flex items-center justify-center">
-                  <img
-                    src="/UnderConstruction.png"   
-                    alt="Under construction"
-                    className="w-40 sm:w-56 opacity-100"
-                  />
-                </div>
-              )}
 
 
               <img
