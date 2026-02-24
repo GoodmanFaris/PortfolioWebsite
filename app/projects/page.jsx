@@ -4,7 +4,7 @@ export default function ProjectsPage() {
   const projects = [
     {
       title: "BudgetFlo - Personal Finance Tracker",
-      desc: "Open source free online personal finance tracker with summary. Current version (V 1.0).",
+      desc: "Open source free online personal finance tracker with summary. Current version (V 1.0). PSQL - Neon, Fastapi - Railway, Next.js - Vercel.",
       img: "/BudgetFlo.png",
       link: "https://budgetflo.online"
     },
