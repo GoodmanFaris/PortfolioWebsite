@@ -3,58 +3,64 @@
 export default function ProjectsPage() {
   const projects = [
     {
+      title: "DebateAI - Negotiation and Debate AI Chatbot trainer",
+      desc: "Mobile app to train negotiation and debate skills with AI chatbot. Current version (V 1.0) Closed testing 15+ testers(for testing link message me). React Native, FastAPI, PSQL, with n8n automation.",
+      img: "/DebateAI.png",
+      link: "https://budgetflo.online",
+    },
+    {
       title: "BudgetFlo - Personal Finance Tracker",
       desc: "Open source free online personal finance tracker with summary. Current version (V 1.0). PSQL - Neon, Fastapi - Railway, Next.js - Vercel.",
       img: "/BudgetFlo.png",
-      link: "https://budgetflo.online"
+      link: "https://github.com/GoodmanFaris/DebateAI",
     },
     {
       title: "InfoStudent",
       desc: "Student job marketplace with chat, rating system, scheduling.(Group project)",
       img: "/p1.png",
-      link: "https://github.com/DinoFazlic/InfoStudent"
+      link: "https://github.com/DinoFazlic/InfoStudent",
     },
     {
       title: "Gric",
       desc: "Play on Too Good To Go food waste app with integrated AI.",
       img: "/p2.png",
-      link: ""
+      link: "",
     },
     {
       title: "2048",
       desc: "Game 2048 implementation using Java.",
       img: "/p3.png",
-      link: "https://github.com/GoodmanFaris/2048"
+      link: "https://github.com/GoodmanFaris/2048",
     },
     {
       title: "Insight BIH",
       desc: "Implementation of IDDEEA API, information and statistics about Bosnia and Herzegovina, Android app.",
       img: "/p4.jpg",
-      link: "https://github.com/GoodmanFaris/IDDEEAFarisLindov"
+      link: "https://github.com/GoodmanFaris/IDDEEAFarisLindov",
     },
     {
       title: "Live Model Viewer",
       desc: "3D model viewer with live camera feed background using Three.js.",
       img: "/p9.png",
-      link: "https://livemodelviewdemov-rjc0c01uz-faris-projects-3a20e575.vercel.app/"
+      link: "https://livemodelviewdemov-rjc0c01uz-faris-projects-3a20e575.vercel.app/",
     },
     {
       title: "F1 APP",
       desc: "Implementation of F1 API, information about all F1 seasons and races, Android app.",
       img: "/p5.jpg",
-      link: "https://github.com/GoodmanFaris/F1-App-Android-Studio"
+      link: "https://github.com/GoodmanFaris/F1-App-Android-Studio",
     },
     {
       title: "Heart Disease Prediction",
       desc: "Machine learning model to predict heart disease risk.",
       img: "/p6.webp",
-      link: "https://github.com/GoodmanFaris/Heart-Disease-Machine-Learning"
+      link: "https://github.com/GoodmanFaris/Heart-Disease-Machine-Learning",
     },
     {
       title: "Cat vs Dog Classification CNN",
       desc: "Machine learning model to classify images of cats and dogs.",
       img: "/p6.webp",
-      link: "https://github.com/GoodmanFaris/CatvsDogRecognition-CNN"
+      link: "https://github.com/GoodmanFaris/CatvsDogRecognition-CNN",
     },
   ];
 
