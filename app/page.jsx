@@ -100,49 +100,37 @@ export default function Home() {
 
   return (
     <div className="relative w-screen h-screen bg-white overflow-hidden">
-
-        <div className="w-full h-full flex items-center justify-center sm:pt-60">
-          <img
-            src={imgSrc}
-            className="w-[95%] sm:w-[65%] h-auto object-cover"
-          />
-        </div>
-
-
-        <div className="pt-50 sm:pt-0 absolute inset-0 flex flex-col items-center justify-center pointer-events-none">
-          <h1 className="text-black text-[5rem] sm:text-[6rem] font-extrabold tracking-widest select-none text-center">
-            <span className="hidden sm:inline">FARIS LINDOV</span>
-            <span className="inline sm:hidden">
-              <span className="block">FARIS</span>
-              <span className="block">LINDOV</span>
-            </span>
-          </h1>
-
-
-          <div className="pt-20 sm:mt-2 sm:pt-0 w-[54%] flex flex-col sm:flex-row justify-between items-center pointer-events-auto gap-2 sm:gap-0">
-
-            <span
-              className="text-black text-xl font-bold select-none"
-              style={{ fontFamily: "'Press Start 2P', cursive" }}
-            >
-              student @ PMF
-            </span>
-
-            <a
-              href="/CV.pdf"
-              download
-              className="text-black text-xl font-bold select-none hover:underline"
-              style={{ fontFamily: "'Press Start 2P', cursive" }}
-            >
-              download my CV
-            </a>
-          </div>
-
-        </div>
+      <div className="w-full h-full flex items-center justify-center sm:pt-60">
+        <img src={imgSrc} className="w-[95%] sm:w-[65%] h-auto object-cover" />
       </div>
 
+      <div className="pt-50 sm:pt-0 absolute inset-0 flex flex-col items-center justify-center pointer-events-none">
+        <h1 className="text-black text-[5rem] sm:text-[6rem] font-extrabold tracking-widest select-none text-center">
+          <span className="hidden sm:inline">FARIS LINDOV</span>
+          <span className="inline sm:hidden">
+            <span className="block">FARIS</span>
+            <span className="block">LINDOV</span>
+          </span>
+        </h1>
 
+        <div className="pt-20 sm:mt-2 sm:pt-0 w-[54%] flex flex-col sm:flex-row justify-between items-center pointer-events-auto gap-2 sm:gap-0">
+          <span
+            className="text-black text-xl font-bold select-none"
+            style={{ fontFamily: "'Press Start 2P', cursive" }}
+          >
+            Math, CS bachelor
+          </span>
 
-
+          <a
+            href="/CV.pdf"
+            download
+            className="text-black text-xl font-bold select-none hover:underline"
+            style={{ fontFamily: "'Press Start 2P', cursive" }}
+          >
+            download my CV
+          </a>
+        </div>
+      </div>
+    </div>
   );
 }
