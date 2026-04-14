@@ -32,7 +32,7 @@ export default function AboutPage() {
               className="text-2xl sm:text-4xl font-bold"
               style={{ fontFamily: "'Press Start 2P', cursive, monospace" }}
             >
-              About Me
+              About me
             </motion.h1>
 
             <img
